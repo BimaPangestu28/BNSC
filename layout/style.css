@@ -1,0 +1,1117 @@
+/*Start Style For Grid System*/
+
+/*For Desktop*/
+.col-lg-1 { width:100%; }
+.col-lg-2 { width:50%; }
+.col-lg-3 { width:33.3333333333333%; }
+.col-lg-4 { width:25%; }
+.col-lg-5 { width:20%; }
+.col-lg-6 { width:16.6666666666667%; }
+.col-lg-7 { width:14.2857142857143%; }
+.col-lg-8 { width:12.5%; }
+.col-lg-9 { width:11.1111111111111%; }
+.col-lg-10 { width:10%; }
+.col-lg-11 { width:9.09090909090909%; }
+.col-lg-12 { width:8.33333333333333%; }
+
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12 {
+	float: left;
+}
+
+/*For Tablet*/
+@media screen and (max-width: 768px) {
+	.col-md-1 { width:100%; }
+	.col-md-2 { width:50%; }
+	.col-md-3 { width:33.3333333333333%; }
+	.col-md-4 { width:25%; }
+	.col-md-5 { width:20%; }
+	.col-md-6 { width:16.6666666666667%; }
+	.col-md-7 { width:14.2857142857143%; }
+	.col-md-8 { width:12.5%; }
+	.col-md-9 { width:11.1111111111111%; }
+	.col-md-10 { width:10%; }
+	.col-md-11 { width:9.09090909090909%; }
+	.col-md-12 { width:8.33333333333333%; }
+
+	.col-md-1,
+	.col-md-2,
+	.col-md-3,
+	.col-md-4,
+	.col-md-5,
+	.col-md-6,
+	.col-md-7,
+	.col-md-8,
+	.col-md-9,
+	.col-md-10,
+	.col-md-11,
+	.col-md-12 {
+		float: left;
+	}
+}
+
+/*For Smartphone*/
+@media screen and (max-width: 320px) {
+	.col-sm-1 { width:100%; }
+	.col-sm-2 { width:50%; }
+	.col-sm-3 { width:33.3333333333333%; }
+	.col-sm-4 { width:25%; }
+	.col-sm-5 { width:20%; }
+	.col-sm-6 { width:16.6666666666667%; }
+	.col-sm-7 { width:14.2857142857143%; }
+	.col-sm-8 { width:12.5%; }
+	.col-sm-9 { width:11.1111111111111%; }
+	.col-sm-10 { width:10%; }
+	.col-sm-11 { width:9.09090909090909%; }
+	.col-sm-12 { width:8.33333333333333%; }
+
+	.col-sm-1,
+	.col-sm-2,
+	.col-sm-3,
+	.col-sm-4,
+	.col-sm-5,
+	.col-sm-6,
+	.col-sm-7,
+	.col-sm-8,
+	.col-sm-9,
+	.col-sm-10,
+	.col-sm-11,
+	.col-sm-12 {
+		float: left;
+	}
+}
+
+/*Close Style For Grid System*/
+
+/*Start Style For Include Font*/
+
+@font-face {
+	src: url('fonts/Poppins-Light.ttf');
+	font-family: 'Poppins-Light';
+}
+
+@font-face {
+	src: url('fonts/Poppins-Regular.ttf');
+	font-family: 'Poppins-Regular';
+}
+
+/*Close Style For Include Font*/
+
+/*Start Default Style*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins-Light';
+}
+
+a {
+	text-decoration: none;
+}
+
+.container-banner {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+.clear {
+	float: none;
+	clear: both;
+}
+
+/*Close Default Style*/
+
+/*Style For Fixed Nav*/
+#fix-nav {
+	position: fixed;
+	z-index: 999;
+	top: 250px;
+}
+
+.menu {
+	position: relative;
+}
+
+.icon {
+	background: #2980b9;
+	padding: 10px 11px 5px 11px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	cursor: pointer;
+}
+
+.text-hover {
+	position: absolute;
+	background: #5c5c5e;
+	border-radius: 3px;
+	color: white;
+	padding: 13px 20px;
+	width: 120px;
+	font-size: 14px;
+	top: 0;
+	left: 80px;
+	display: none;
+}
+
+.text-hover:after {
+	content:"";
+    position:absolute;
+    top: 10px;
+    right: 155px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid #5c5c5e;
+    border-bottom: 15px solid transparent;
+}
+
+/*Style For Banner Website*/
+#banner {
+	background: url('images/bg.jpg') center no-repeat fixed;
+	height: 765px;
+	position: relative;
+}
+
+#logo {
+	text-align: center;
+	padding-top: 25px;
+	margin-bottom: 125px;
+}
+
+/*Style For Slider*/
+#sm-banner {
+	width: 100%;
+	overflow: hidden;
+}
+
+#si-banner {
+	width: 400%;
+}
+
+.sc-banner {
+	width: 24.93333%;
+    float: left;
+    margin-right: 10%;
+}
+
+.l-sc {
+	color: white;
+}
+
+.l-sc h1 {
+	font-size: 36px;
+}
+
+.l-sc p {
+	margin: 0;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+.img-game {
+	height: 200px;
+}
+
+.img-game img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.button {
+	color: white;
+	background: #2980b9;
+	font-size: 16px;
+	padding: 10px 40px;
+	border: none;
+}
+
+#l-arrow, #r-arrow {
+	position: absolute;
+	top: 390px;
+	cursor: pointer;
+}
+
+#r-arrow {
+	right: 50px;
+}
+
+#l-arrow {
+	left: 50px;
+}
+
+.buttonHover {
+	transition: all ease .3s;
+}
+
+.buttonHover:hover {
+	box-shadow: 3px 10px 10px rgba(0,0,0,.4);
+}
+
+/*Style For Search*/
+#search {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#search p {
+	font-size: 18px;
+	color: white;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+form {
+	position: relative;
+}
+
+#search button {
+	font-size: 16px;
+	padding: 15px 70px;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.input {
+	width: 99%;
+	float: left;
+	box-sizing: border-box;
+	padding: 14.5px 20px;
+}
+
+/*.input::placeholder {
+	font-size: 14px;
+	font-family: 'Poppins-Light';
+}*/
+
+/*Style Thumbnail Banner*/
+#thumbnail {
+	margin-top: 60px;
+}
+
+.title-section {
+	text-align: center;
+}
+
+.title-section h3 {
+	font-size: 30px;
+}
+
+.title-section p {
+	font-size: 14px;
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.photo-thumb {
+	margin-top: 40px;
+}
+
+.item-thumb {
+	height: 200px;
+	width: 31.4%;
+    margin: 0.9%;
+}
+
+.item-thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 3px;
+}
+
+.video-thumb video {
+	width: 47.8%;
+	margin: 0.9%;
+	display: inline-block;
+}
+
+.line {
+	margin: 75px 0;
+}
+
+.line hr {
+	border: none;
+	height: 1px;
+	opacity: .2;
+	background: #5c5c5e;
+}
+
+/*Style For About Website*/
+.c-a {
+	width: 48%;
+	float: left;
+	margin: .7%;
+}
+
+.img-about {
+	height: 300px;
+}
+
+.img-about img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 3px;
+}
+
+.text-about {
+	margin-top: 18px;
+	margin-left: 13px;
+}
+
+.text-about p {
+	font-size: 12px;
+	line-height: 25pt;
+	margin-bottom: 25px;
+}
+
+.text-about .button {
+	font-size: 14px;
+}
+
+.content-about {
+	margin-top: 40px;
+}
+
+/*Style For Social Media*/
+.content-social {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.twitter {
+	background: #0ea7bf;
+}
+
+.twitter:after {
+	content:"";
+    position:absolute;
+    margin: auto;
+    top: 31px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #0ea7bf;
+}
+
+.instagram {
+	background: #7139ad;
+}
+
+.instagram:after {
+	content:"";
+    position:absolute;
+    margin: auto;
+    top: 31px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #7139ad;
+}
+
+.fb {
+	background: #0d6eac;
+}
+
+.fb:after {
+	content:"";
+    position:absolute;
+    margin: auto;
+    top: 31px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #0d6eac;
+}
+
+.google {
+	background: #cf1717;
+}
+
+.google:after {
+	content:"";
+    position:absolute;
+    margin: auto;
+    top: 31px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #cf1717;
+}
+
+.c-s {
+	position: relative;
+}
+
+.tab-social {
+	padding: 5px 20px;
+    /* position: absolute; */
+    border-radius: 3px;
+    /* right: 0; */
+    margin: auto;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.tab-social span {
+	color: white;
+	font-size: 14px;
+}
+
+/*Style For Footer*/
+footer {
+	background: #0b383e;
+	min-height: 1px;
+	display: inline-block;
+	margin-top: 150px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 30px 0 10px 0;
+}
+
+.menu-fot {
+	margin: 6.5px;
+}
+
+.menu-fot p {
+	font-size: 14px;
+	color: white;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	color: #688691;
+	font-size: 14px;
+}
+
+.menu-fot form {
+	position: relative;
+}
+
+.inp-sub {
+	width: 99%;
+	height: 20px;
+	box-sizing: border-box;
+	padding: 17px 10px;
+}
+
+.menu-fot .button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px 30px;
+}
+
+.menu-fot .button span {
+	font-size: 14px;
+}
+
+/*.inp-sub::placeholder {
+	font-size: 12px;
+	font-family: 'Poppins-Light';
+}*/
+
+footer .line hr {
+	background: #192d2e;
+	opacity: 1;
+}
+
+footer .line {
+	margin-bottom: 25px;
+	margin-top: 50px;
+}
+
+.bot-footer {
+	text-align: center;
+}
+
+.bot-footer p {
+	font-size: 14px;
+	color: white;
+}
+
+.bot-footer p {
+	margin: 0px;
+}
+
+.bot-footer p:last-child {
+	margin: 8px 0 10px 0;
+}
+
+.button img {
+	display: none;
+}
+
+/*Style For Sidenav*/
+#sidenav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	width: 20%;
+	display: none;
+	background: #0b383e;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 40px;
+}
+
+#sidenav a {
+	color: white;
+	display: block;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed gray;
+}
+
+#sidenav a:nth-child(2) {
+	margin-top: 55px;
+}
+
+#sidenav .closebtn {
+	border-bottom: none;
+	position: absolute;
+	top: 0;
+	font-size: 34px;
+	right: 5%;
+}
+
+/*Style Responsive For Tablet 768px*/
+@media screen and (max-width: 768px) {
+	.sc-banner {
+		display: flex;
+		flex-flow: column;
+	}
+
+	.l-sc {
+		order: 2;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.r-sc {
+		order: 1;
+	}
+
+	.logo {
+		margin-bottom: 70px;
+	}
+
+	#l-arrow, #r-arrow {
+		top: 520px;
+	}
+
+	#banner {
+		height: 900px;
+	}
+
+	#search {
+		margin-top: 70px;
+	}
+
+	.video-thumb video {
+		width: 100%;
+	}
+
+	.item-thumb {
+		width: 100%;
+		height: 300px;
+	}
+
+	.c-a {
+		width: 100%;
+	}
+
+	.menu-fot {
+		margin: -0.5px;
+	}
+
+	.menu-fot:last-child {
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+
+	.c-s:nth-child(3), .c-s:nth-child(4) {
+		margin-top: 75px;
+	}
+
+	.twitter:after, .fb:after, .instagram:after, .google:after {
+		top: 31px;
+	}
+
+	#sidenav {
+		width: 30%;
+	}
+}
+
+/*Style For Smartphone 320px*/
+@media screen and (max-width: 320px) {
+	#r-arrow, #l-arrow {
+		display: none;
+	}
+
+	.container-banner {
+		width: 90%;
+	}
+
+	#logo {
+		margin-bottom: 65px;
+	}
+
+	#search .button span {
+		display: none;
+	}
+
+	.button img {
+		display: inline-block;
+	}
+
+	#search button {
+		padding: 10px;
+	}
+
+	.title-section h3 {
+		font-size: 25px;
+	}
+
+	.title-section p {
+		width: 100%;
+	}
+
+	.item-thumb {
+		height: 150px;
+	}
+
+	.c-a h2 {
+		font-size: 21px;
+	}
+
+	.c-s {
+		margin-top: 75px;
+	}
+
+	.c-s:first-child {
+		margin-top: 20px;
+	}
+
+	.menu-fot .button {
+		padding: 10px 15px;
+	}
+
+	.menu-fot, .menu-fot:last-child {
+		margin-top: 15px;
+	}
+
+	.bot-footer p {
+		font-size: 9px;
+	}
+}
+
+@media screen and (max-width: 537px) {
+	#sidenav {
+		width: 100%;
+	}
+}
+
+/*================================= Style For Register Page =================================*/
+
+.right-register {
+	background: url('images/bg.jpg') no-repeat center fixed;
+	height: 100vh;
+	position: fixed;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.right-register h3 {
+	font-size: 32px;
+	color: white;
+	font-weight: normal;
+	margin-top: 20px;
+}
+
+.left-register {
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.left-register h3 {
+	color: #2980b9;
+	font-size: 28px;
+	margin-bottom: 40px;
+}
+
+.form-r div {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.form-r button{
+	float: left;
+	background: transparent;
+	border: 2px solid #cbe5f6;
+	padding: 10px;
+	height: 39px;
+	width: 40px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	outline: none;
+}
+
+.form-r button img {
+	width: 15px;
+}
+
+.form-r input {
+	float: left;
+	border: 2px solid #cbe5f6;
+	border-left: none;
+	padding: 10px 20px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	width: 50%;
+	outline: none;
+}
+
+.form-r span {
+	font-size: 14px;
+	color: red;
+	position: absolute;
+	top: 8px;
+	margin-left: 10px;
+}
+
+.form-r .profile input {
+	border: none;
+	padding: 0;
+	margin-top: 10px;
+}
+
+.profile h4 {
+	font-size: 14px;
+}
+
+.form-r .captcha {
+	width: 80px;
+	text-align: center;
+	padding: 0;
+}
+
+.form-r .captcha span {
+	padding: 0;
+	margin: 0;
+	top: 12px;
+}
+
+.form-r .register-btn {
+	font-size: 14px;
+	background: #2980b9;
+	border: none;
+	padding: 10px 20px;
+	height: auto;
+	width: auto;
+	box-sizing: border-box;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	outline: none;
+	float: left;
+}
+
+.form-r .form-bottom span {
+	position: inherit;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+
+.ui-datepicker {
+	width: 17em;
+	padding: .2em .2em 0;
+	display: none;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: .2em 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 2px;
+	width: 1.8em;
+	height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	top: 1px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	left: 1px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	right: 1px;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -8px;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 2.3em;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width: 45%;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	right: 2px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	right: 1px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0;
+	border-left-width: 1px;
+}
+
+/* Icons */
+.ui-datepicker .ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	left: .5em;
+	top: .3em;
+}
+
+/*Style Responsive For Tablet 768px*/
+@media screen and (max-width: 768px) {
+	.content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.right-register {
+		height: 200px;
+		position: inherit;
+		order: 1;
+	}
+
+	.left-register {
+		order: 2;
+	}
+
+	.right-register img {
+		width: 80px;
+	}
+
+	.right-register h3 {
+		font-size: 18px;
+	}
+
+	.form-r .f-c {
+		width: 44%;
+	}
+}
+
+/*Style Responsive For Smartphone 320px*/
+@media screen and (max-width: 320px) {
+	.right-register img {
+		display: none;
+	}
+
+	.right-register {
+		height: 100px;
+	}
+
+	.right-register h3 {
+		margin: 0;
+	}
+
+	.form-r .errors {
+		display: block;
+		position: inherit;
+		margin: 0;
+	}
+
+	.form-r input {
+		width: 60%;
+	}
+
+	.form-r span {
+		margin-left: 0;
+	}
+}

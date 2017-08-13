@@ -1,0 +1,42 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	width: 900px;
+	height: 600px;
+	position: relative;
+	top: 0;
+}
+
+#canvas {
+	border: 1px solid black;
+	z-index: 1;
+	width: 900px;
+	height: 550px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+}
+
+#canvas2 {
+	border: 1px solid black;
+	z-index: 2;
+	width: 900px;
+	height: 550px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+}
+
+#canvas3 {
+	border: 1px solid black;
+	z-index: 1;
+	width: 900px;
+	height: 550px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+}
